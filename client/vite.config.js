@@ -1,7 +1,8 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
 
+// ✅ This fixes GitHub Pages blank screen
 export default defineConfig({
   plugins: [react()],
-  server: { port: 5173 }
-})
+  base: "/evoting-opinion-platform/", // your repo name
+});
