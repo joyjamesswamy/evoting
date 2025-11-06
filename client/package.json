@@ -1,7 +1,7 @@
 {
   "name": "evoting-client",
-  "private": true,
   "version": "2.0.0",
+  "private": false,
   "type": "module",
   "homepage": "https://viknans.github.io/evoting-opinion-platform",
   "scripts": {
@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.2.1",
-    "gh-pages": "^6.3.0",
-    "vite": "^5.4.0"
+    "vite": "^5.4.0",
+    "gh-pages": "^6.0.0"
   }
 }

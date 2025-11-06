@@ -1,8 +1,8 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
-// ✅ This fixes GitHub Pages blank screen
+// ✅ Correct setup for Render deployment (fixes blank page)
 export default defineConfig({
   plugins: [react()],
-  base: "/evoting-opinion-platform/", // your repo name
+  base: "/", // Render serves from root, NOT subpath
 });
