@@ -1,4 +1,4 @@
-# E‑Voting & Opinion Polling Platform
+# TICKET COUNTING SYSTEM
 
 Full‑stack app with Node.js + Express + MongoDB (Mongoose) and React (Vite).
 
